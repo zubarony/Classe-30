@@ -1,0 +1,100 @@
+    body,h1,h2,h3,h5,h4,h6,a,p{
+        font-family: 'Work Sans', sans-serif;
+
+    }
+/* head */
+   .lfwf-logo {
+       border: 2px solid #ffc107;
+       border-radius: 10px;
+       height: 10px;
+   }
+
+
+
+
+    /* slider-section */
+   .slider-title{
+       background: url(./img/ia_200000012.jpg) no-repeat center center;
+       padding:  200px 0px ;
+       position: relative;
+       z-index: 1;
+   }
+   .slider-title::after{
+       content: "";
+       height: 100%;
+       width: 100%;
+       position: absolute;
+       left: 0;
+       top: 0;
+       background: rgba(0, 0, 0, 0.219);
+       z-index: -1;
+   }
+   .BTNr{
+    box-shadow: 4px 4.33px 30px 0 rgba(215, 217, 226, 0.336);
+
+   }
+
+
+
+   img{
+       max-width: 100%;
+   }
+
+
+   /* about-section */
+    .About-section{
+        background: #f7f9ff;
+    }
+    .about-text-l h1 {
+        font-size: 35px;
+        font-weight: 400;
+    }
+    .about-text-l{
+        margin-top: 120px;
+    }
+    .about-text-l .lead {
+        font-size: 20px;
+        line-height: 1.7;
+    }
+
+    .number-counter{
+        background:#f7f9ff;
+    }
+
+
+
+    .feature-t-l p{
+        font-size: 15px;
+    }
+
+    .sadow{
+        box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1); 
+    }
+    
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+.portfolio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(98, 120, 223,.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+.min-section-bg{
+    background-color: #f7f9ff;
+}
+
+   
